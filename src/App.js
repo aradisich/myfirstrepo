@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to MyFirstRepo!
+          Welcome to MyFirstRepo! 
+        </p>
+        <p>
+          If you're seeing this, it was deployed automatically!
         </p>
         <a
           className="App-link"
