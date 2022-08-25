@@ -1,7 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Stepper from './Stepper';
 
 function App() {
+
+  const onAgeChange = () => {
+    // do nothing
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -12,14 +18,10 @@ function App() {
         <p>
           If you're seeing this, it was deployed automatically!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          What's your age?
+          <Stepper onChange={onAgeChange} />
+        </div>
       </header>
     </div>
   );
